@@ -38,7 +38,7 @@ class MainVC: UIViewController {
     @IBAction func flipPressed(_ sender: UIButton) {
         print("Joint Probability:")
         if let psf = Double(percentSField.text ?? "") {
-            print(psf)
+            print(100.0 - psf)
         }
 //        print("First Joint Probability:", Double(percentSField.text) * Double(percentLSField))
     }
@@ -47,10 +47,17 @@ class MainVC: UIViewController {
 }
 
 extension MainVC: UITextFieldDelegate {
-    func textFieldShouldEndEditing(_ textField: UITextField) -> Bool {
-        if let psf = Double(percentSField.text ?? "") {
-            percentSPrimeLabel.text = String(100.0 - psf)
-        }
-        return true
-    }
+//    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+//        if let psf = Double(percentSField.text ?? "") {
+//            percentSPrimeLabel.text = String(100.0 - psf)
+//        }
+//        return true
+//    }
+//
+//    func textFieldShouldEndEditing(_ textField: UITextField) -> Bool {
+//        if let psf = Double(percentSField.text ?? "") {
+//            percentSPrimeLabel.text = String(100.0 - psf)
+//        }
+//        return true
+//    }
 }
