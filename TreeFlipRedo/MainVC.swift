@@ -30,13 +30,27 @@ class MainVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         flipButton.layer.cornerRadius = 5
+        // dismiss keyboard on tap outside keyboard
+        self.view.addGestureRecognizer(UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing(_:))))
+
     }
 
     @IBAction func flipPressed(_ sender: UIButton) {
-//        guard let psf = Double(percentSField!.text) else { return }
-//        guard let plsf = Double(percentLSField!.text) else { return }
-//        print(psf * plsf)
+        print("Joint Probability:")
+        if let psf = Double(percentSField.text ?? "") {
+            print(psf)
+        }
+//        print("First Joint Probability:", Double(percentSField.text) * Double(percentLSField))
     }
     
     
+}
+
+extension MainVC: UITextFieldDelegate {
+    func textFieldShouldEndEditing(_ textField: UITextField) -> Bool {
+        if let psf = Double(percentSField.text ?? "") {
+            percentSPrimeLabel.text = String(100.0 - psf)
+        }
+        return true
+    }
 }
