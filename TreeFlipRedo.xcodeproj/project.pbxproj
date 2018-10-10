@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E685A81216DDEA5008AD39B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E685A80216DDEA5008AD39B /* AppDelegate.swift */; };
+		8E685A83216DDEA5008AD39B /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E685A82216DDEA5008AD39B /* MainVC.swift */; };
+		8E685A86216DDEA5008AD39B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E685A84216DDEA5008AD39B /* Main.storyboard */; };
+		8E685A89216DDEA5008AD39B /* TreeFlipRedo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8E685A87216DDEA5008AD39B /* TreeFlipRedo.xcdatamodeld */; };
+		8E685A8B216DDEA6008AD39B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E685A8A216DDEA6008AD39B /* Assets.xcassets */; };
+		8E685A8E216DDEA6008AD39B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E685A8C216DDEA6008AD39B /* LaunchScreen.storyboard */; };
+		8E685A99216DDEA6008AD39B /* TreeFlipRedoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E685A98216DDEA6008AD39B /* TreeFlipRedoTests.swift */; };
+		8E685AA4216DDEA6008AD39B /* TreeFlipRedoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E685AA3216DDEA6008AD39B /* TreeFlipRedoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E685A95216DDEA6008AD39B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E685A75216DDEA5008AD39B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E685A7C216DDEA5008AD39B;
+			remoteInfo = TreeFlipRedo;
+		};
+		8E685AA0216DDEA6008AD39B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E685A75216DDEA5008AD39B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E685A7C216DDEA5008AD39B;
+			remoteInfo = TreeFlipRedo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E685A7D216DDEA5008AD39B /* TreeFlipRedo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TreeFlipRedo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E685A80216DDEA5008AD39B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E685A82216DDEA5008AD39B /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		8E685A85216DDEA5008AD39B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E685A88216DDEA5008AD39B /* TreeFlipRedo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TreeFlipRedo.xcdatamodel; sourceTree = "<group>"; };
+		8E685A8A216DDEA6008AD39B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E685A8D216DDEA6008AD39B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E685A8F216DDEA6008AD39B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E685A94216DDEA6008AD39B /* TreeFlipRedoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreeFlipRedoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E685A98216DDEA6008AD39B /* TreeFlipRedoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeFlipRedoTests.swift; sourceTree = "<group>"; };
+		8E685A9A216DDEA6008AD39B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E685A9F216DDEA6008AD39B /* TreeFlipRedoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreeFlipRedoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E685AA3216DDEA6008AD39B /* TreeFlipRedoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeFlipRedoUITests.swift; sourceTree = "<group>"; };
+		8E685AA5216DDEA6008AD39B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E685A7A216DDEA5008AD39B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E685A91216DDEA6008AD39B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E685A9C216DDEA6008AD39B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E685A74216DDEA5008AD39B = {
+			isa = PBXGroup;
+			children = (
+				8E685A7F216DDEA5008AD39B /* TreeFlipRedo */,
+				8E685A97216DDEA6008AD39B /* TreeFlipRedoTests */,
+				8E685AA2216DDEA6008AD39B /* TreeFlipRedoUITests */,
+				8E685A7E216DDEA5008AD39B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E685A7E216DDEA5008AD39B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E685A7D216DDEA5008AD39B /* TreeFlipRedo.app */,
+				8E685A94216DDEA6008AD39B /* TreeFlipRedoTests.xctest */,
+				8E685A9F216DDEA6008AD39B /* TreeFlipRedoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E685A7F216DDEA5008AD39B /* TreeFlipRedo */ = {
+			isa = PBXGroup;
+			children = (
+				8E685A80216DDEA5008AD39B /* AppDelegate.swift */,
+				8E685A82216DDEA5008AD39B /* MainVC.swift */,
+				8E685A84216DDEA5008AD39B /* Main.storyboard */,
+				8E685A8A216DDEA6008AD39B /* Assets.xcassets */,
+				8E685A8C216DDEA6008AD39B /* LaunchScreen.storyboard */,
+				8E685A8F216DDEA6008AD39B /* Info.plist */,
+				8E685A87216DDEA5008AD39B /* TreeFlipRedo.xcdatamodeld */,
+			);
+			path = TreeFlipRedo;
+			sourceTree = "<group>";
+		};
+		8E685A97216DDEA6008AD39B /* TreeFlipRedoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E685A98216DDEA6008AD39B /* TreeFlipRedoTests.swift */,
+				8E685A9A216DDEA6008AD39B /* Info.plist */,
+			);
+			path = TreeFlipRedoTests;
+			sourceTree = "<group>";
+		};
+		8E685AA2216DDEA6008AD39B /* TreeFlipRedoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E685AA3216DDEA6008AD39B /* TreeFlipRedoUITests.swift */,
+				8E685AA5216DDEA6008AD39B /* Info.plist */,
+			);
+			path = TreeFlipRedoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E685A7C216DDEA5008AD39B /* TreeFlipRedo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E685AA8216DDEA6008AD39B /* Build configuration list for PBXNativeTarget "TreeFlipRedo" */;
+			buildPhases = (
+				8E685A79216DDEA5008AD39B /* Sources */,
+				8E685A7A216DDEA5008AD39B /* Frameworks */,
+				8E685A7B216DDEA5008AD39B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TreeFlipRedo;
+			productName = TreeFlipRedo;
+			productReference = 8E685A7D216DDEA5008AD39B /* TreeFlipRedo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E685A93216DDEA6008AD39B /* TreeFlipRedoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E685AAB216DDEA6008AD39B /* Build configuration list for PBXNativeTarget "TreeFlipRedoTests" */;
+			buildPhases = (
+				8E685A90216DDEA6008AD39B /* Sources */,
+				8E685A91216DDEA6008AD39B /* Frameworks */,
+				8E685A92216DDEA6008AD39B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E685A96216DDEA6008AD39B /* PBXTargetDependency */,
+			);
+			name = TreeFlipRedoTests;
+			productName = TreeFlipRedoTests;
+			productReference = 8E685A94216DDEA6008AD39B /* TreeFlipRedoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E685A9E216DDEA6008AD39B /* TreeFlipRedoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E685AAE216DDEA6008AD39B /* Build configuration list for PBXNativeTarget "TreeFlipRedoUITests" */;
+			buildPhases = (
+				8E685A9B216DDEA6008AD39B /* Sources */,
+				8E685A9C216DDEA6008AD39B /* Frameworks */,
+				8E685A9D216DDEA6008AD39B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E685AA1216DDEA6008AD39B /* PBXTargetDependency */,
+			);
+			name = TreeFlipRedoUITests;
+			productName = TreeFlipRedoUITests;
+			productReference = 8E685A9F216DDEA6008AD39B /* TreeFlipRedoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E685A75216DDEA5008AD39B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Neil Sood";
+				TargetAttributes = {
+					8E685A7C216DDEA5008AD39B = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					8E685A93216DDEA6008AD39B = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 8E685A7C216DDEA5008AD39B;
+					};
+					8E685A9E216DDEA6008AD39B = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 8E685A7C216DDEA5008AD39B;
+					};
+				};
+			};
+			buildConfigurationList = 8E685A78216DDEA5008AD39B /* Build configuration list for PBXProject "TreeFlipRedo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E685A74216DDEA5008AD39B;
+			productRefGroup = 8E685A7E216DDEA5008AD39B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E685A7C216DDEA5008AD39B /* TreeFlipRedo */,
+				8E685A93216DDEA6008AD39B /* TreeFlipRedoTests */,
+				8E685A9E216DDEA6008AD39B /* TreeFlipRedoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E685A7B216DDEA5008AD39B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E685A8E216DDEA6008AD39B /* LaunchScreen.storyboard in Resources */,
+				8E685A8B216DDEA6008AD39B /* Assets.xcassets in Resources */,
+				8E685A86216DDEA5008AD39B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E685A92216DDEA6008AD39B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E685A9D216DDEA6008AD39B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E685A79216DDEA5008AD39B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E685A89216DDEA5008AD39B /* TreeFlipRedo.xcdatamodeld in Sources */,
+				8E685A83216DDEA5008AD39B /* MainVC.swift in Sources */,
+				8E685A81216DDEA5008AD39B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E685A90216DDEA6008AD39B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E685A99216DDEA6008AD39B /* TreeFlipRedoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E685A9B216DDEA6008AD39B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E685AA4216DDEA6008AD39B /* TreeFlipRedoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E685A96216DDEA6008AD39B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E685A7C216DDEA5008AD39B /* TreeFlipRedo */;
+			targetProxy = 8E685A95216DDEA6008AD39B /* PBXContainerItemProxy */;
+		};
+		8E685AA1216DDEA6008AD39B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E685A7C216DDEA5008AD39B /* TreeFlipRedo */;
+			targetProxy = 8E685AA0216DDEA6008AD39B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E685A84216DDEA5008AD39B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E685A85216DDEA5008AD39B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E685A8C216DDEA6008AD39B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E685A8D216DDEA6008AD39B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E685AA6216DDEA6008AD39B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E685AA7216DDEA6008AD39B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E685AA9216DDEA6008AD39B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W62H62SG9Z;
+				INFOPLIST_FILE = TreeFlipRedo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neilsood.TreeFlipRedo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E685AAA216DDEA6008AD39B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W62H62SG9Z;
+				INFOPLIST_FILE = TreeFlipRedo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neilsood.TreeFlipRedo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8E685AAC216DDEA6008AD39B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W62H62SG9Z;
+				INFOPLIST_FILE = TreeFlipRedoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neilsood.TreeFlipRedoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TreeFlipRedo.app/TreeFlipRedo";
+			};
+			name = Debug;
+		};
+		8E685AAD216DDEA6008AD39B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W62H62SG9Z;
+				INFOPLIST_FILE = TreeFlipRedoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neilsood.TreeFlipRedoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TreeFlipRedo.app/TreeFlipRedo";
+			};
+			name = Release;
+		};
+		8E685AAF216DDEA6008AD39B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W62H62SG9Z;
+				INFOPLIST_FILE = TreeFlipRedoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neilsood.TreeFlipRedoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TreeFlipRedo;
+			};
+			name = Debug;
+		};
+		8E685AB0216DDEA6008AD39B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W62H62SG9Z;
+				INFOPLIST_FILE = TreeFlipRedoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neilsood.TreeFlipRedoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TreeFlipRedo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E685A78216DDEA5008AD39B /* Build configuration list for PBXProject "TreeFlipRedo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E685AA6216DDEA6008AD39B /* Debug */,
+				8E685AA7216DDEA6008AD39B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E685AA8216DDEA6008AD39B /* Build configuration list for PBXNativeTarget "TreeFlipRedo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E685AA9216DDEA6008AD39B /* Debug */,
+				8E685AAA216DDEA6008AD39B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E685AAB216DDEA6008AD39B /* Build configuration list for PBXNativeTarget "TreeFlipRedoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E685AAC216DDEA6008AD39B /* Debug */,
+				8E685AAD216DDEA6008AD39B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E685AAE216DDEA6008AD39B /* Build configuration list for PBXNativeTarget "TreeFlipRedoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E685AAF216DDEA6008AD39B /* Debug */,
+				8E685AB0216DDEA6008AD39B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8E685A87216DDEA5008AD39B /* TreeFlipRedo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8E685A88216DDEA5008AD39B /* TreeFlipRedo.xcdatamodel */,
+			);
+			currentVersion = 8E685A88216DDEA5008AD39B /* TreeFlipRedo.xcdatamodel */;
+			path = TreeFlipRedo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8E685A75216DDEA5008AD39B /* Project object */;
+}
