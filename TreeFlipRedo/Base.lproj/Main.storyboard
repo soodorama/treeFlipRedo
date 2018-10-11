@@ -180,7 +180,7 @@
                         <outlet property="percentLSPrimeField" destination="pY7-UO-Jpm" id="90O-zB-2bW"/>
                         <outlet property="percentSField" destination="ajI-RY-JJd" id="lM9-N4-VPs"/>
                         <outlet property="percentSPrimeLabel" destination="6B5-Ow-WVI" id="zch-0t-A2o"/>
-                        <segue destination="52p-zP-B1v" kind="presentation" id="8K9-xK-lGK"/>
+                        <segue destination="52p-zP-B1v" kind="presentation" identifier="ShowJointSegue" id="8K9-xK-lGK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

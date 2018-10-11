@@ -43,11 +43,11 @@ class MainVC: UIViewController {
         guard let plsf = Double(percentLSField.text ?? "") else { return }
         guard let plspf = Double(percentLSPrimeField.text ?? "") else { return }
         
-        data["lsProbability"] = String(psf * plsf)
-        data["lpsProbability"] = String(psf * (100-plsf))
+        data["lsProbability"] = String((psf * plsf) / 100)
+        data["lpsProbability"] = String((psf * (100-plsf)) / 100)
         
-        data["lspProbability"] = String(plspf)
-        data["lpspProbability"] = String(100-plspf)
+        data["lspProbability"] = String(((100-psf) * plspf) / 100)
+        data["lpspProbability"] = String(((100-psf) * (100-plspf)) / 100)
         
         
         print("S and S'")
@@ -61,6 +61,8 @@ class MainVC: UIViewController {
         print("L|S' and L'|S'")
         print(plspf)
         print(100.0 - plspf)
+        
+        performSegue(withIdentifier: "ShowJointSegue", sender: sender)
         
     }
     
