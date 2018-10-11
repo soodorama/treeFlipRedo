@@ -27,6 +27,8 @@ class MainVC: UIViewController {
     
     @IBOutlet weak var flipButton: UIButton!
     
+    var data: [String:String] = [:]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         flipButton.layer.cornerRadius = 5
@@ -37,14 +39,39 @@ class MainVC: UIViewController {
 
     @IBAction func flipPressed(_ sender: UIButton) {
         print("Joint Probability:")
-        if let psf = Double(percentSField.text ?? "") {
-            print(100.0 - psf)
-        }
-//        print("First Joint Probability:", Double(percentSField.text) * Double(percentLSField))
+        guard let psf = Double(percentSField.text ?? "") else { return }
+        guard let plsf = Double(percentLSField.text ?? "") else { return }
+        guard let plspf = Double(percentLSPrimeField.text ?? "") else { return }
+        
+        data["lsProbability"] = String(psf * plsf)
+        data["lpsProbability"] = String(psf * (100-plsf))
+        
+        data["lspProbability"] = String(plspf)
+        data["lpspProbability"] = String(100-plspf)
+        
+        
+        print("S and S'")
+        print(psf)
+        print(100.0 - psf)
+
+        print("L|S and L'|S")
+        print(plsf)
+        print(100.0 - plsf)
+        
+        print("L|S' and L'|S'")
+        print(plspf)
+        print(100.0 - plspf)
+        
     }
     
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let dest = segue.destination as! JointVC
+        dest.delegate = self
+        dest.data = data
+    }
+
 }
+
 
 extension MainVC: UITextFieldDelegate {
 //    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
@@ -60,4 +87,8 @@ extension MainVC: UITextFieldDelegate {
 //        }
 //        return true
 //    }
+}
+
+extension MainVC: JointVCDelegate {
+    
 }
